@@ -1,0 +1,143 @@
+.buttons-container {
+  margin-right: auto;
+}
+
+.custom-table th,
+.custom-table td {
+  padding: 8px 16px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+
+}
+
+.custom-table th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.custom-table tr:hover {
+  background-color: #f5f5f5;
+  
+}
+
+.mat-table-container {
+  width: 70%;
+  margin: auto;
+  direction: rtl;
+  text-align: right;
+}
+
+.mat-table-container {
+  max-height: 70vh;
+  overflow-x: auto;
+}
+
+.mat-table {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.custom-button {
+  background-color: transparent;
+  color: #333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10%;
+  background-color: rgba(190, 190, 190, 0.338);
+}
+
+.custom-button1 {
+  background-color: transparent;
+  color: #333;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  border: 1px solid rgba(0, 0, 0, 0.075);
+  border-radius: 5px;
+  margin-right: 10%;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.mat-table-container::-webkit-scrollbar {
+  width: 25px;
+}
+
+.mat-table-container::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  background: linear-gradient(to top, #ff98b94e, #00ffd043);
+  border-radius: 1px;
+
+
+  // background: linear-gradient(to right, #00ffd07d, #ff98b89d, #93fff2);
+
+}
+
+.mat-table-container::-webkit-scrollbar-thumb {
+  background: #c4c4c44d;
+  }
+
+.mat-table-container::-webkit-scrollbar-thumb:hover {
+  background: #8888883f;
+}
+
+.custom-table th {
+  position: sticky;
+  top: 0;
+  background-color: #f2f2f2;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.custom-button:hover,
+.butt:hover,
+.custom-button1:hover {
+  background-color: #6d6d6d4f;
+  color: rgb(0, 0, 0);
+}
+
+.spacer {
+  flex: 0;
+
+}
+
+.act {
+  margin-left: 30%;
+}
+
+.mat-icon {
+  color: rgba(0, 0, 0, 0.492) !important;
+  /* !important כדי להעדיף על CSS קיים */
+}
+
+.mat-mdc-header-cell {
+  color: #000000;
+  font-size: larger;
+}
+
+.spinner {
+  display: block;
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.mat-mdc-progress-spinner {
+  --mdc-circular-progress-active-indicator-color: #00ffe1;
+
+}

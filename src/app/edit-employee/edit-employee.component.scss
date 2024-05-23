@@ -1,0 +1,73 @@
+body {
+  background-color: #f0f0f0; /* צבע רקע כללי */
+  margin: 0; /* מסיר את המרווחים הברירתיים של גוף הדף */
+  padding: 0; /* מסיר את המרווחים הברירתיים של גוף הדף */
+margin-top: 0%;}
+
+.content {
+  justify-content: space-around;
+  margin-top: 0%;
+  width: 100%;
+  display: flex;
+  direction: rtl;
+  background: linear-gradient(to right, #00ffd91d, #00b7ff28, #ff00d034);
+  background: linear-gradient(to right, #00ffd041, #ff74a025, #93fff263); /* צבע gradient */
+
+  height: 100%;
+}
+
+.small-con {
+  width: 50%;
+  margin-top: 2%;
+}
+
+.edit-employee-details h3 {
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 2%;
+}
+
+.employee-form .form-group {
+  width: 100%;
+}
+
+.employee-form label {
+  display: block;
+  margin-bottom: 0px;
+  font-weight: bold;
+  color: #555;
+  margin-right: 2%;
+}
+
+.employee-form button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  width: 35%;
+  margin-right: 10%;
+  background-color: #7e7e7e2b;
+  color: rgb(0, 0, 0);
+}
+
+.employee-form button.primary {
+  background-color: #4CAF50;
+}
+
+.employee-form button.secondary {
+  background-color: #17ddbfc2 !important;
+  border-color: #36807d;
+}
+
+.employee-form button.secondary:hover {
+  background-color: #17ddbf !important;
+}
+
+.component-container {
+  width: 45%;
+}
+.cus{
+  background-color: #7e7e7e13;
+}
