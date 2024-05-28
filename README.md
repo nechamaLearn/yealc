@@ -16,7 +16,7 @@ To run the project locally, follow these steps:
 
 
     ```sh
-git clone https://github.com/yulifrank/Employees-Management-Client.git
+    git clone https://github.com/yulifrank/Employees-Management-Client.git
     ```
 2. Navigate to the project directory in your terminal/command prompt.
 3. Run `npm install` to install project dependencies.
