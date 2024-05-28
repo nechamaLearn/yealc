@@ -14,7 +14,6 @@ To run the project locally, follow these steps:
 
 1 Clone this repository to your local machine:
 
-
     ```sh
     git clone https://github.com/yulifrank/Employees-Management-Client.git
     ```
