@@ -1,27 +1,57 @@
-# EmployeesManagementSystem
+# Employees Management System
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.8.
+This project is a simple Employees Management System built with Angular.
 
-## Development server
+## Demo
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Check out the live demo of the project [here](https://employees--management.web.app/).
 
-## Code scaffolding
+## Development Server
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+To run the project locally, follow these steps:
 
-## Build
+1. Install Node.js and npm (if not already installed).
+2. Clone this repository to your local machine:
+git clone <[repository_url](https://github.com/yulifrank/Employees-Management-Client.git)>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+3. Navigate to the project directory in your terminal/command prompt.
+4. Run `npm install` to install project dependencies.
+5. Run `ng serve` for a development server.
+6. Navigate to `http://localhost:4200/` in your web browser.
+7. The application will automatically reload if you make any changes to the source files.
 
-## Running unit tests
+## Code Scaffolding
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You can generate new components, directives, pipes, services, classes, guards, interfaces, enums, or modules using Angular CLI:
 
-## Running end-to-end tests
+- To generate a new component: `ng generate component component-name`
+- To generate other Angular elements, replace `component-name` with the desired type.
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Building
 
-## Further help
+To build the project for production, run `ng build`. The build artifacts will be stored in the `dist/` directory.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Running Unit Tests
+
+To run unit tests using Karma, run `ng test`.
+
+## Running End-to-End Tests
+
+To run end-to-end tests using a platform of your choice, run `ng e2e`. Note that you need to add a package that implements end-to-end testing capabilities.
+
+## Screenshots
+
+Here are screenshots of some pages in the application:
+
+![Home Page](src/assets/home-page.png)
+*Home Page: Displays the employee table.*
+
+![Roles Page](src/assets/roles-page.png)
+*Roles Page: Shows the list of roles and allows adding new roles.*
+
+![Edit Employee Page](src/assets/edit-employee-page.png)
+*Edit Employee Page: Allows editing employee details.*
+
+## Further Help
+
+For more help on using the Angular CLI, you can run `ng help` in your terminal/command prompt, or you can visit the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
