@@ -1,6 +1,7 @@
 # Employees Management System
 
 This project is a simple Employees Management System built with Angular.
+
 ![Home Page](src/assets/home-page.png)
 *Home Page: Displays the employee table.*
 
@@ -12,8 +13,7 @@ Check out the live demo of the project [here](https://employees--management.web.
 
 To run the project locally, follow these steps:
 
-1 Clone this repository to your local machine:
-
+1. Clone this repository to your local machine:
     ```sh
     git clone https://github.com/yulifrank/Employees-Management-Client.git
     ```
@@ -45,8 +45,6 @@ To run end-to-end tests using a platform of your choice, run `ng e2e`. Note that
 ## Screenshots
 
 Here are screenshots of some pages in the application:
-
-
 
 ![Roles Page](src/assets/position.png)
 *Roles Page: Shows the list of roles and allows adding new roles.*
