@@ -12,13 +12,16 @@ To run the project locally, follow these steps:
 
 1. Install Node.js and npm (if not already installed).
 2. Clone this repository to your local machine:
+
+'''  SH
 git clone <[repository_url](https://github.com/yulifrank/Employees-Management-Client.git)>
 
-3. Navigate to the project directory in your terminal/command prompt.
-4. Run `npm install` to install project dependencies.
-5. Run `ng serve` for a development server.
-6. Navigate to `http://localhost:4200/` in your web browser.
-7. The application will automatically reload if you make any changes to the source files.
+'''
+4. Navigate to the project directory in your terminal/command prompt.
+5. Run `npm install` to install project dependencies.
+6. Run `ng serve` for a development server.
+7. Navigate to `http://localhost:4200/` in your web browser.
+8. The application will automatically reload if you make any changes to the source files.
 
 ## Code Scaffolding
 
@@ -46,7 +49,7 @@ Here are screenshots of some pages in the application:
 ![Home Page](src/assets/home-page.png)
 *Home Page: Displays the employee table.*
 
-![Roles Page](src/assets/roles-page.png)
+![Roles Page](src/assets/position.png)
 *Roles Page: Shows the list of roles and allows adding new roles.*
 
 ![Edit Employee Page](src/assets/edit-employee-page.png)
